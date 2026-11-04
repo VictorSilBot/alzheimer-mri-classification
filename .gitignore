@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Secrets
+.env
+*.token
+
+# Data and model artefacts
+data/
+*.pt
+*.pth
+*.ckpt
+
+# Media (keep the repo small; the video is on YouTube)
+*.mp4
+*.mov
+
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/

@@ -1,0 +1,26 @@
+# Alzheimer Disease Classification - dependencies
+# Install with: pip install -r requirements.txt
+#
+# PyTorch: the lines below install the CPU build. For an NVIDIA GPU (much faster
+# training), install torch/torchvision from the CUDA index instead, e.g.:
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cu121
+# See https://pytorch.org/get-started/locally/ for the exact command.
+
+# Deep learning
+torch
+torchvision
+
+# Data acquisition (Hugging Face)
+datasets
+
+# Modelling metrics
+scikit-learn
+
+# Data manipulation and plotting
+pandas
+numpy
+matplotlib
+seaborn
+
+# Jupyter kernel (required to run the notebook in VSCode)
+ipykernel
